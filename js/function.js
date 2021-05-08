@@ -100,3 +100,7 @@ const sum2 = function(a, b) {
 console.log('sum2(5,6); :>> ', sum2(5,6));
 
 // переписать deg4 в нотации function expression
+const deg04 = function (a) {
+  return a ** 4;
+};
+console.log("deg04(5) :» ", deg04(5));
