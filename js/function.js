@@ -44,7 +44,6 @@ console.log('d :>> ', d);
  * @param {number} value - число, возводимое в 4 степень
  * @returns {number} число в 4 степени
  */
-
 function deg4(value) {
   return value ** 4;
 }
@@ -78,11 +77,26 @@ function squareEquation (a, b, c) {
 
 /********************************************************************* */
 
-const catName = 'Vasia';
-const catColor = 'red';
+// const catName = 'Vasia';
+// const catColor = 'red';
 
-function aboutMyCat (catName, catColor)
+// function aboutMyCat (catName, catColor);
 
-const catName2 = 'Murka';
-const catColor2 = 'black';
-const catMale2 = 'female';
+// const catName2 = 'Murka';
+// const catColor2 = 'black';
+// const catMale2 = 'female';
+/********************************************************** */
+
+function f() {
+  return 5;
+}
+
+const newFunction = f;
+// function expression
+const sum2 = function(a, b) {
+  return a + b;
+}
+
+console.log('sum2(5,6); :>> ', sum2(5,6));
+
+// переписать deg4 в нотации function expression
