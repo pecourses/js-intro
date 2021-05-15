@@ -104,3 +104,18 @@ const deg04 = function (a) {
   return a ** 4;
 };
 console.log("deg04(5) :» ", deg04(5));
+
+
+/************************************** */
+
+function isAdult(age) {
+  // if (age >= 18) {
+  //   return true;
+  // }
+  // else {
+  //   return false;
+  // }
+  return age >= 18 ? true : false;
+}
+console.log('isAdult(9) :>> ', isAdult(9));
+// maxValue = a > b ? a : b;

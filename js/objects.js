@@ -120,3 +120,45 @@ const human3 = new Human("Wick", "Wicksurnamne", 32, false);
 console.log("human3 :>> ", human3);
 
 const human007 = new Human('Agent', '007', 35, true);
+
+/***************************************************************************************** */
+
+const sparrow = {
+  name: 'Jack',
+  age: 2,
+  fly() {
+    console.log( this.name, 'can fly!!)))');
+  },
+  rename(newName) {
+    this.name = newName;
+  }
+}
+
+sparrow.fly();
+
+console.log('sparrow :>> ', sparrow);
+sparrow.rename('Jack 2');
+console.log('sparrow :>> ', sparrow);
+sparrow.rename('Jack 3')
+console.log('sparrow :>> ', sparrow);
+
+const sparrowChild = {
+  name: 'JJ',
+  age: 1,
+}
+
+sparrowChild.mother = 'Sparrow mother';
+sparrowChild.fly = sparrow.fly;
+
+sparrowChild.fly();
+
+function Monkey(name1, age) {
+  this.name = name1;
+  this.age = age;
+}
+
+const monkey1 = new Monkey('King Kong', 2);
+const monkey2 = new Monkey('King Kong J', 4);
+console.log('monkey1 :>> ', monkey1);
+
+// Типы-значения и ссылочные типы

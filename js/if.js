@@ -2,20 +2,20 @@
 //   // инструкции (если condition истина)  
 // }
 
-const isPermissionDenied = true;
+// const isPermissionDenied = true;
 
-if (isPermissionDenied) {
-  console.log('You have no permission(');
-} else {
-  console.log('You have permission. Have fun)))');
-}
+// if (isPermissionDenied) {
+//   console.log('You have no permission(');
+// } else {
+//   console.log('You have permission. Have fun)))');
+// }
 
-console.log('next instructions');
+// console.log('next instructions');
 
-console.log('5<10 =', 5 < 10);
-console.log('5>10 =', 5 > 10);
-console.log('10<=10 =', 10 <= 10);
-console.log('5>=10 =', 5 >= 10);
+// console.log('5<10 =', 5 < 10);
+// console.log('5>10 =', 5 > 10);
+// console.log('10<=10 =', 10 <= 10);
+// console.log('5>=10 =', 5 >= 10);
 
 //const age = prompt("Enter your age:");
 
@@ -25,19 +25,19 @@ console.log('5>=10 =', 5 >= 10);
 //   //alert("You are adult");
 // }
 
-console.log('5==5 :>> ', 5 == 5);
-console.log('5!=5 :>> ', 5 != 5);
-console.log('5==6 :>> ', 5 == 6);
-console.log('5!=6 :>> ', 5 != 6);
+// console.log('5==5 :>> ', 5 == 5);
+// console.log('5!=5 :>> ', 5 != 5);
+// console.log('5==6 :>> ', 5 == 6);
+// console.log('5!=6 :>> ', 5 != 6);
 
-console.log('5===5 :>> ', 5 === 5);
-console.log('5!==5 :>> ', 5 !== 5);
-console.log('5===6 :>> ', 5 === 6);
-console.log('5!==6 :>> ', 5 !== 6);
+// console.log('5===5 :>> ', 5 === 5);
+// console.log('5!==5 :>> ', 5 !== 5);
+// console.log('5===6 :>> ', 5 === 6);
+// console.log('5!==6 :>> ', 5 !== 6);
 
 // 0==null => 0==0
 
-console.log('1===true = ', 1 === true);
+// console.log('1===true = ', 1 === true);
 
 // Пользователь вводит пароль. 
 // Если пароль правильный, то выдать диагностическое сообщение, 
@@ -66,22 +66,22 @@ console.log('1===true = ', 1 === true);
 // age >= 18 && age <= 65
 //18 <= age <= 65
 
-console.group("Таблица истинности &&")
-console.log('true && true :>> ', true && true);
-console.log('true && false :>> ', true && false);
-console.log('false && true :>> ', false && true);
-console.log('false && false :>> ', false && false);
-console.groupEnd()
+// console.group("Таблица истинности &&")
+// console.log('true && true :>> ', true && true);
+// console.log('true && false :>> ', true && false);
+// console.log('false && true :>> ', false && true);
+// console.log('false && false :>> ', false && false);
+// console.groupEnd()
 
 // age < 18 или age > 65
 // age < 18 || age > 65
 
-console.group("Таблица истинности ||")
-console.log('true || true :>> ', true || true);
-console.log('true || false :>> ', true || false);
-console.log('false || true :>> ', false || true);
-console.log('false || false :>> ', false || false);
-console.groupEnd();
+// console.group("Таблица истинности ||")
+// console.log('true || true :>> ', true || true);
+// console.log('true || false :>> ', true || false);
+// console.log('false || true :>> ', false || true);
+// console.log('false || false :>> ', false || false);
+// console.groupEnd();
 
 // Пользователь вводит возраст. Ему выдается инфо, может ли он пользоваться льготами
 // const age = prompt("Your age:");
@@ -99,3 +99,49 @@ console.groupEnd();
 //   alert("Иди пешком");
 // } else {
 //   alert("У тебя льгота");
+
+
+//////////////////////////////////////////////////////////
+// Условный оператор
+//... ? ... : ...
+
+// const a = 22;
+// const b = 16;
+
+// let maxValue = null;
+
+// if (a > b) {
+//   maxValue = a;
+// } else {
+//   maxValue = b;
+// }
+// maxValue = a > b ? isAdult(a) : isAdult(b);
+// isAdult(maxValue)
+
+//// switch..case
+
+// const point = 11;
+
+// if (point === 12) {
+//   console.log('Pupil got 5+');
+// } else if (point === 11) {
+//   console.log('Pupil got 5');
+// } else if (point === 10) {
+//   console.log('Pupil got 5-');
+// } else {
+//   console.log('Pupil got less then 5-');
+// }
+
+// switch (point) {
+//   case 12:
+//     console.log('Pupil got 5+');
+//     break;
+//   case 11:
+//     console.log('Pupil got 5');
+//     break;
+//   case 10:
+//     console.log('Pupil got 5-');
+//     break;
+//   default:
+//     console.log('Pupil got less then 5-');
+// }
