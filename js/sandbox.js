@@ -1,26 +1,22 @@
 'use strict';
 
-function pow(base, exponent) {
-  if (typeof base !== 'number' || typeof exponent !== 'number') {
-    throw new TypeError();
+class Subject {
+  constructor(length, width, height) {
+    this.dimensions = {
+      length: length,
+      width: width,
+      height: height,
+    };
   }
-  // if (Number.isNaN(base) || Number.isNaN(exponent)) {
-  //   // base === NaN
-  //   return NaN;
-  // }
-  if (base === Infinity || exponent === Infinity) {
-    return Infinity;
-  }
-  if (exponent === 0) {
-    return 1;
-  } else if (exponent < 0) {
-    return 1 / pow(base, -exponent);
-  }
-  return base * pow(base, exponent - 1);
 }
 
-try {
-  console.log('pow(1,5) :>> ', pow(1, NaN));
-} catch (e) {
-  console.log('e :>> ', e);
+const s1 = new Subject(1, 2, 3);
+/**************************** */
+
+class Subject {
+  constructor(dimensions) {
+    this.dimensions = dimensions;
+  }
 }
+
+const s2 = new Subject({ length: 1, width: 2, height: 3 });
