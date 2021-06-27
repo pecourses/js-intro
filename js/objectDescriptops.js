@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 const a = {};
 a.prop = 555;

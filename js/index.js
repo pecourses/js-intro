@@ -5,7 +5,7 @@
 
 let value2 = 5;
 value2 = 10;
-// Имя переменной: 1:     a-zA-Z $ _ 
+// Имя переменной: 1:     a-zA-Z $ _
 //                 2-...: a-zA-Z $ _ 0-9
 
 const value3 = 10;
@@ -24,13 +24,13 @@ console.log(numberValue);
 console.log('typeof numberValue :>> ', typeof numberValue);
 
 // string
-let stringValue = "Hello, world!";
+let stringValue = 'Hello, world!';
 console.log('stringValue =', stringValue);
 console.log('typeof stringValue :>> ', typeof stringValue);
 
 // boolean (true, false)
 let booleanValue = true;
-console.log("booleanValue =", booleanValue);
+console.log('booleanValue =', booleanValue);
 console.log('typeof booleanValue :>> ', typeof booleanValue);
 
 // undefined (ОБЪЯВЛЕНОб но не проинициализировано)
@@ -60,7 +60,7 @@ console.log('typeof symbolValue :>> ', typeof symbolValue);
 // вывести :"Привет, Имя!"
 //let yourName = prompt("Enter your name:");
 //alert("Your name is " + yourName)
-let myValue = 3-"fjjdskfhjk";
+let myValue = 3 - 'fjjdskfhjk';
 console.log('myValue :>> ', myValue);
 console.log('typeof myValue :>> ', typeof myValue);
 
@@ -76,7 +76,7 @@ let grapeNumber = 4;
 console.log('--grapeNumber :>> ', --grapeNumber);
 console.log('grapeNumber :>> ', grapeNumber);
 //appleNumber = appleNumber + 1;
-// appleNumber++; 
+// appleNumber++;
 
 let peopleNumber = 2;
 
@@ -89,24 +89,24 @@ console.log('5 * 11 % 2 =', 11 % 2);
 
 // Приведение типов
 // Ввести число и вывести число на единицу больше
-let myValue2 = prompt("Input Number:");
+let myValue2 = prompt('Input Number:');
 let newMyValue2 = Number(myValue2);
 newMyValue2++;
-alert("New number is " + newMyValue2);
+alert('New number is ' + newMyValue2);
 
-console.log('5 + "qwerty" = ', 5 + "qwerty");
+console.log('5 + "qwerty" = ', 5 + 'qwerty');
 console.log('5 + null = ', 5 + null);
 console.log('5 + undefined = ', 5 + undefined);
 console.log('5 + true = ', 5 + true);
 //console.log('5 + Symbol() = ', 5 + Symbol());
 
-console.log('"qwerty" + "qwerty" = ', "qwerty" + "qwerty");
-console.log('"qwerty" + null = ', "qwerty" + null);
-console.log('"qwerty" + undefined = ', "qwerty" + undefined);
-console.log('"qwerty" + true = ', "qwerty" + true);
+console.log('"qwerty" + "qwerty" = ', 'qwerty' + 'qwerty');
+console.log('"qwerty" + null = ', 'qwerty' + null);
+console.log('"qwerty" + undefined = ', 'qwerty' + undefined);
+console.log('"qwerty" + true = ', 'qwerty' + true);
 // console.log('"qwerty" + Symbol() = ', "qwerty" + Symbol());
 
 // Неявное преобразование типа
-const myAge = prompt("Enter your age:");
+const myAge = prompt('Enter your age:');
 const myAgeNumber = +myAge;
-alert("You age" + myAgeNumber);
+alert('You age' + myAgeNumber);
